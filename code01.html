@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Thai Van</title>
+    <style>
+        body{
+            color:#003366;
+            position:relative; 
+            width:80%;
+            margin:auto;
+            font-family: 'Times New Roman', Times, serif;
+            background-color:rgb(208, 231, 235);
+        }
+        .first {
+            position: relative;
+             display:flex;
+            list-style: none;
+            background-color: #ffcc00;
+             padding:30px;
+             color:#0000ff;
+             }
+             li a{
+                 text-decoration:none;
+                 padding:5px;
+             }
+             .sddfs{
+                 position:absolute;
+                 left:90%;
+             }
+     table,th,td{
+         border:1px solid black; 
+     }
+      .main2{
+         display:flex;
+        justify-content: space-between;
+     }
+     
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color:#993366">Trang web đầu tiên
+        </h1>
+        <img src="c01-html-stu/img/planets.gif" alt="planets" usemap="#map">
+        <map name="map">
+            <area shape="rect" coords="0,0,73,74" href="plant.html" alt="ar">
+        </map>
+    </header>
+    <nav>
+      <ul class="first">
+          <li><a href="#footer">Footer</a></li>
+          <li><a href="#">Sun</a></li>
+          <li><a href="#so">Gọi Ngay</a></li>
+          <li><a href="javascript.js">Lời Chào </a></li>
+          <li><a href="mailto:academy@kmin.edu.vn">Liên Hệ</a></li>
+          <li  class="sddfs"><a href="https://www.google.com/" target="_blank">Tìm kiếm</a></li> 
+        </ul>
+    </nav>
+    <div class="main2" style="width:100%">
+    <main style="width:70%">
+        <section  class="tieude1">
+            <h2 style="color:#ffcc00;" >Tiêu đề 01</h2>
+            <h4 style="color:#003366;">Mô tả ngăn,Dec,7,2025</h4>
+            <p style="color:#003366;">Lorem ipsum dolor sit ament,consetectur adipiscing elit.Repellat dolorum denleniti,invoentore beatea,ipsum unde consequuntur.</p>
+       <img src="c01-html-stu/img/article01.jpg" alt="article01">
+       <p style="width:97%;color:#003366;">Lorem ipsum dolor sit amet,consetur adipisicing elit.Neque ab eius veritaies,rations accusame sapiente abcaecati magni deserunt sint voluptatem provident mollitiea fugiat dignimissmos tempore esee iure nese id voluptat lorem ipsumdolor sit agame conset tur adipiscing elit.Newquee ab eius veritaries ratio nacuusamus senpiente obaceacati magni deserunt sint veluptatem providen mollti fgatdigniis temp sesire ise id volupate</p>
+    </section>
+        <article  id="so" class="tieude2">
+            <h2  style="color:#ffcc00;" >Tiêu đề 02</h2>
+            <h4 style="color:#003366;">Mô tả ngăn,Dec7,2025</h4>
+       <h3>Danh sách học viên tham gia Bug Sharing</h3>
+            <table   style="color:#003366;">
+                <tr>
+                    <th>Họ tên </th>
+                    <th>Lớp</th>
+                    <th>SĐT</th>
+                </tr>
+                <tr>
+                    <td>Vũ Đình Bảo</td>
+                    <td>Tư duy và kỹ thuật lập trình</td>
+                    <td > <a href="tel:+0384004298">0384004298</a></td>
+                </tr>
+                <tr>
+                   <td>Lê Hồng Phúc</td>
+                   <td>Lập trình web Font-end</td>
+                   <td><a href="tel:+1234356789">1234356789</a></td>
+                </tr>
+                <tr>
+                   <td>Đặng Minh Tân</td>
+                   <td>Lập trình back-end với NodeJs</td>
+                   <td>null</td>
+                </tr>
+            </table>
+    </article>
+    <div class="tieude03">
+        <h2 style="color:#ffcc00;">Tiêu Đề 03</h2>   
+    <h4>Các món có thể gọi:</h4>
+        <ul class="second" style="list-style: square;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ul class="third" style="list-style: disc;">
+            <li>Bánh Mì</li>
+            <li>Trà đá</li>
+            <li>Mì Tôm</li>
+        </ul>
+<hr>
+<h4>Các món có thể gọi:</h4>
+<ol type="A" class="four">
+  
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+<ol start="4" class="five">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+<hr>
+<h4>Coffe và Milk nghĩa là gì?</h4>
+<dl>
+    <dt>Coffee
+        <dd>-Thức uống không thể thiếu đối với DEV</dd>      
+    </dt>
+    <dt>Milk
+        <dd>-Thức uống tốt đối với sức khỏe</dd>
+    </dt>
+</dl>
+<hr>
+<h4>Menu chi tiết hơn</h4>
+<ul>
+    <li>Coffe</li>
+    <li> Tea
+        <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+        </ul>
+    </li>
+    <li>Milk</li>
+</ul>
+
+</div>
+<h2 style="font-weight: bold;">Địa chỉ </h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d52794.099216020055!2d106.12851676990715!3d10.425947194090554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1641400253858!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</main>
+<aside style="width:30%">
+    <img src="c01-html-stu/img/234.jpg"  style  ="width:98%;"alt="avarta">
+ <h2 style="font-weight: bold;text-align:center;">Nguyễn Thái Văn</h2>
+    <h3 style="text-align:center">Lore ipsum dolor sit ament,consecteture</h3>
+<h1 style="font-weight: bold;">Bài mới </h1>
+<audio controls>
+    <source src="c01-html-stu/media/audio.mp3"type="auto/ogg">
+   
+</audio>
+<img src="c01-html-stu/img/article01.jpg" alt="arccit">
+<h2 style="font-weight: bold;">Tin vắng</h2>
+<h3>Lorem ipsum dolor sit ament,consectetur adipisicing elit </h3>
+<h2>Chúc mừng năm mới :v</h2>
+<a href="https://kmin.edu.vn/" target="_blank"><img src="c01-html-stu/img/noel.gif" alt=""></a>
+
+<h2 style="font-weight: bold;">  Theo dõi fanpage</h2>
+<img src="c01-html-stu/img/268374466_736926437694732_2946252956005249539_n.jpg"  style="width:300px;"alt="sdfsf">
+</aside>
+</div>
+    <footer id="footer">
+<h2 style="text-align:center;color:#ffcc00;;padding:10px;background-color: #003366;">Footer:Kmin Academy</h2>
+    </footer>
+</body>
+</html>
